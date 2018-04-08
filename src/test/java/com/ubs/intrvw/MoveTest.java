@@ -14,7 +14,7 @@ public class MoveTest {
     private CellStatus moveCellStatus;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         board = new Board();
         moveCellStatus = DARK;
     }
